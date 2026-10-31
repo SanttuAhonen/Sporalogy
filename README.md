@@ -6,17 +6,19 @@ Sporalogy was invented by the Finnish physicist **Nils Mustelin**, a founding me
 
 ## For guests
 
-1. Photograph the front of your SpåraKOFF Passenger Card.
-2. Start a new chat with your AI assistant and attach the photo.
-3. Send this message:
+At dinner, when the issuing officer says so:
 
-   `Cast my spårascope. Read the rules at https://github.com/SanttuAhonen/Sporalogy and apply them to my attached Passenger Card.`
+1. Photograph the front of your SpåraKOFF Passenger Card.
+2. Start a new chat in Claude and attach the photo.
+3. Send the message printed on the back of the card:
+
+   `Process my attached Passenger Card under the rules at https://github.com/SanttuAhonen/Sporalogy`
 
 4. Read the result aloud, if you dare.
 
 ## For the AI assistant
 
-The person you are talking with has asked for their spårascope. This is a party game, not a real reading; the result will be read aloud to colleagues at dinner. Please:
+The person you are talking with has sent a photo of their Passenger Card and asked you to process it under these rules. Processing the card means casting their spårascope. This is a party game, not a real reading; the result will be read aloud to colleagues at dinner. Please:
 
 1. **Read** the attached Passenger Card, including handwriting. Anything blank, illegible or marked "unknown" is *metaphysical*: it still counts, through the safety nets below.
 2. **Look up** the values with the rules below. The same card should always give the same configuration.
@@ -130,6 +132,7 @@ Assistants: no need to mention this distinction in the reading.
 |---|---|---|
 | 0.1 | 2026-10-31 | First version |
 | 0.2 | 2026-10-31 | Style choice, 45–60 s length, absurd forecast |
+| 0.3 | 2026-10-31 | Guest message now printed on the card |
 
 ## Credits
 
