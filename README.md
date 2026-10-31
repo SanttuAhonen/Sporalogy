@@ -12,11 +12,13 @@ At dinner, when the issuing officer says so:
 2. Start a new chat in Claude and attach the photo.
 3. Send the message printed on the back of the card:
 
-   `Process my attached Passenger Card under the rules at https://github.com/SanttuAhonen/Sporalogy`
+   `Process my attached Passenger Card under the rules at https://github.com/SanttuAhonen/Sporalogy Use web fetch, not git.`
 
 4. Read the result aloud, if you dare.
 
 ## For the AI assistant
+
+You have found the right page: this README is all you need. Nothing else in the repository is required, and there is no need to clone or download anything.
 
 The person you are talking with has sent a photo of their SpåraKOFF Passenger Card and asked you to process it under these rules. Processing the card means casting their spårascope. It is a party game: the result is read aloud at a dinner table of lawyers and process people.
 
@@ -26,7 +28,7 @@ The person you are talking with has sent a photo of their SpåraKOFF Passenger C
 
 1. **Read** the card, including handwriting. Blank or illegible values count as 0.
 2. **Pick** one ingredient from each list below, using the seeds. Then **invent at least one more** absurd element that is on no list.
-3. **Write** the reading in the format below, in the style ticked in field 14. One reply, with nothing before or after it and no follow-up questions.
+3. **Write** the reading in the format below, in the style ticked in field 13. One reply, with nothing before or after it and no follow-up questions.
 
 ### Seeds
 
@@ -38,9 +40,9 @@ Use the last digit of each value.
 | B Instrument | minutes of the birth time (field 3) |
 | C Object | day of birth (field 2) |
 | D Creature | line number (field 6; "none" = 0) |
-| E Place | saunas this year (field 12) |
+| E Place | saunas this year (field 11) |
 
-The other fields (landmark, colour, position, detail scale) are decoration: use at most one, and only if it makes the reading stranger. Never mention the drink.
+The other fields (landmark, colour, detail scale) are decoration: use at most one, and only if it makes the reading stranger. Never mention the drink.
 
 ### Ingredients
 
@@ -135,16 +137,17 @@ Use at least three:
 - Proper names stay as they are: Havis Amanda, Suomenlinna, SpåraKOFF, spårascope.
 - Established English legal terms of art, such as force majeure, count as English.
 
-### Style, from field 14
+### Style, from field 13
 
 Write the whole reading in the style the guest ticked:
 
-- *ASD-STE100 Simplified Technical English (STE)*: sentences of 20 words or fewer, one statement per sentence, active voice, simple verbs, no idioms. The absurdity stays; only the grammar is simplified.
+- *ASD-STE100*: Simplified Technical English. Sentences of 20 words or fewer, one statement per sentence, active voice, simple verbs, no idioms. The absurdity stays; only the grammar is simplified.
 - *Max-length sentence wins*: as few sentences as possible, each as long as the word limit allows, held together with semicolons, provisos and subordinate clauses.
-- *Shakespearean English*: Early Modern English: thee, thou, doth, hath, -eth endings, a flourish or two, still understandable.
-- Several ticked: combine them. Nothing ticked: plain deadpan English.
+- *ISO 24495-1*: ignore what the label promises. Write the spårascope as a **rhyming poem in Shakespearean English** (Early Modern English: thee, thou, doth, hath, -eth endings), in three or four short stanzas, inside the same word limit. Under the title, first write this line exactly: *Prepared in accordance with ISO 24495-1:2023, Plain language.* Then the poem replaces the section headings, but it still contains the ingredients, the absurd forecast (weekday and clock time included) and, as its last stanza, the Authority's ERRATUM, DISSENTING OPINION, NOTICE or [REDACTED] passage. Never explain the switch.
+- Several ticked: combine them. If *ISO 24495-1* is one of them, the poem wins and the other styles only flavour it.
+- Nothing ticked: plain deadpan English.
 
-The headings and the two closing lines stay as written, whatever the style.
+The title and the two closing lines stay as written, whatever the style.
 
 ### Format
 
@@ -178,6 +181,10 @@ End with these two lines, unchanged:
 | 0.3 | 2026-10-31 | Guest message printed on the card |
 | 0.4 | 2026-10-31 | Rewritten for absurdist tone and maximum variance; card values used as seeds |
 | 0.5 | 2026-10-31 | English only; one local word only if the user is known to use that language |
+| 0.6 | 2026-10-31 | Shakespearean option replaced by U.S. Federal Plain Language, which yields a Shakespearean poem |
+| 0.7 | 2026-10-31 | Fetch guidance aligned with the card; guest message adds "Use web fetch, not git." |
+| 0.8 | 2026-10-31 | Style options renamed: ASD-STE100, max-length sentence wins, ISO 24495-1 (yields a Shakespearean poem) |
+| 0.9 | 2026-10-31 | Field numbers follow card rev. 1.0 (position field removed) |
 
 ## Credits
 
