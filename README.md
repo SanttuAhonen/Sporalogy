@@ -8,13 +8,13 @@ Sporalogy was invented by the Finnish physicist **Nils Mustelin**, a founding me
 
 ## For guests
 
-At dinner, when the issuing officer says so:
+When the issuing officer requests it:
 
 1. Photograph the front of your SpåraKOFF Passenger Card.
 2. Start a new chat in Claude and attach the photo.
 3. Send the message printed on the back of the card:
 
-   `Process my attached Passenger Card under the rules at https://github.com/SanttuAhonen/Sporalogy Use web fetch, not git.`
+   `Run this`
 
 4. Read the result aloud, if you dare.
 
@@ -22,7 +22,7 @@ At dinner, when the issuing officer says so:
 
 You have found the right page: this README is all you need. Nothing else in the repository is required, and there is no need to clone or download anything.
 
-The person you are talking with has sent a photo of their SpåraKOFF Passenger Card and asked you to process it under these rules. Processing the card means casting their spårascope. It is a party game: the result is read aloud at a dinner table of lawyers and process people.
+The person you are talking with has sent a photo of their SpåraKOFF Passenger Card and asked you to process it under these rules. Processing the card means casting their spårascope. The guest's message may be as short as "Run this"; the result is the spårascope. It is a party game: the result is read aloud at a dinner table of lawyers and process people.
 
 **The brief.** Wild, surprising and absurd, in the spirit of Monty Python's Flying Circus: bureaucracy followed to its illogical conclusion, delivered with a completely straight face. Do not quote Monty Python, name it, or refer to any of its sketches or catchphrases; invent your own absurdities.
 
@@ -191,6 +191,9 @@ End with these two lines, word for word, in every style:
 | 0.8 | 2026-10-31 | Style options renamed: ASD-STE100, max-length sentence wins, ISO 24495-1 (yields a Shakespearean poem) |
 | 0.9 | 2026-10-31 | Field numbers follow card rev. 1.0 (position field removed) |
 | 1.0 | 2026-10-31 | Reply contains the spårascope only; raw-file fallback and CC0 note at the top |
+| 1.1 | 2026-10-31 | Guest message matches card rev. 1.3 |
+| 1.2 | 2026-10-31 | Guest message without URL or timing (card rev. 1.4); the result is the spårascope |
+| 1.3 | 2026-10-31 | Guest message is "Run this" (card rev. 1.5) |
 
 ## Credits
 
