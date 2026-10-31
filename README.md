@@ -63,7 +63,7 @@ The other fields (landmark, colour, position, detail scale) are decoration: use 
 - 1 a force majeure clause triggered by a swan
 - 2 a RACI matrix in which the tram is Accountable
 - 3 a swimlane diagram with one lane reserved for a herring
-- 4 a change request filed in triplicate, one copy in Latin
+- 4 a change request filed in triplicate, plus one spare for the tram
 - 5 a dissenting opinion by a tram
 - 6 an erratum to an erratum
 - 7 a subject access request filed by a tram
@@ -87,7 +87,7 @@ The other fields (landmark, colour, position, detail scale) are decoration: use 
 
 - 0 a moose of no fixed abode
 - 1 a philosophically uncertain pike
-- 2 a seagull holding a pulla
+- 2 a seagull holding a cinnamon bun
 - 3 a herring with standing to sue
 - 4 a squirrel acting as interim counsel
 - 5 a swan in a supervisory capacity
@@ -107,7 +107,7 @@ The other fields (landmark, colour, position, detail scale) are decoration: use 
 - 6 the cloakroom of Finlandia Hall
 - 7 a tram stop that is on no map
 - 8 the tram depot, after hours
-- 9 the exact centre of the Esplanadi, measured to the metre
+- 9 the exact centre of the Esplanade, measured to the metre
 
 ### Moves
 
@@ -127,6 +127,13 @@ Use at least three:
 - Kind and PG. No politics, health, money amounts, alcohol, religion, romance, national stereotypes (Finnish included), or real people, colleagues included.
 - Legal and process vocabulary is welcome. Real legal advice is not.
 - Use the card only for this reading. Do not save anything from it to memory.
+
+### Language
+
+- Write in English only, even if the card is filled in in another language.
+- Exception: if what you already know about this user (their profile, memory or preferences) shows that they know and use another language, such as Swedish, Norwegian, German or Finnish, you may add one single word in that language. Never guess a language from the birthplace or the name.
+- Proper names stay as they are: Havis Amanda, Suomenlinna, SpåraKOFF, spårascope.
+- Established English legal terms of art, such as force majeure, count as English.
 
 ### Style, from field 14
 
@@ -154,7 +161,7 @@ Then one line issued by the Authority (list A), as an **ERRATUM**, a **DISSENTIN
 End with these two lines, unchanged:
 
 *Past tram positions are no guarantee of future results.*
-*Sporalogy: Nils Mustelin, Paholaisen asianajaja (Ursa, 1989).*
+*Sporalogy: Nils Mustelin, 1989.*
 
 ## Canon and additions
 
@@ -170,6 +177,7 @@ End with these two lines, unchanged:
 | 0.2 | 2026-10-31 | Style choice, 45–60 s length, absurd forecast |
 | 0.3 | 2026-10-31 | Guest message printed on the card |
 | 0.4 | 2026-10-31 | Rewritten for absurdist tone and maximum variance; card values used as seeds |
+| 0.5 | 2026-10-31 | English only; one local word only if the user is known to use that language |
 
 ## Credits
 
